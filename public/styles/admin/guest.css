@@ -1,0 +1,534 @@
+.findBlock{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #3f3f3f;
+}
+.findItem{
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+}
+.findMTitle{
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+}
+.findMInput{
+    float: left;
+    width: 174px;
+    margin-right: 5px;
+}
+.findMButton{
+    float: left;
+    padding: 5px 10px;
+    background-color: #ef9a20;
+    color: white;
+    cursor: pointer;
+}
+.findMButton:hover{
+    background-color: #1cd420;
+}
+.grImage{
+    float: left;
+    width: 480px;
+    height: 480px;
+    margin-right: 10px;
+}
+.grRight{
+    float: left;
+    width: 550px;
+}
+.gsrBlock{
+    margin-top: 10px;
+}
+.grrTitle{
+    float: left;
+    width: 150px;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid #3f3f3f;
+    font-weight: bold;
+}
+.grrInput{
+    float: left;
+    width: 400px;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid #3f3f3f;
+}
+.guestEnterButton{
+    float: right;
+    padding: 5px 10px;
+    background-color: #ef9a20;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.guestEnterButton:hover{
+    background-color: #1cd420;
+}
+.pagingItem{
+    float: left;
+    padding: 5px 7px;
+    background-color: #56ff7a;
+    margin-right: 5px;
+    
+}
+.pagingItem:hover{
+    background-color: #00ff36;
+    cursor: pointer;
+}
+.pagingItem a{
+    text-decoration: none;
+}
+.activePage, .activePage:hover{
+    background-color: #ef9a20;
+    cursor: default;
+}
+.buttonPageOff, .buttonPageOff:hover{
+    background-color: #ff4848;
+    cursor: default;
+}
+.activeSortButton{
+    background-color: #1cd420;
+}
+.guestCardBlock{
+    /*float: left;*/
+    /*width: 507px;*/
+    margin-bottom: 10px;
+    border: 2px solid red;
+    /*border: 2px solid #ef9a20;*/
+    padding: 5px;
+
+}
+.guestCardBlock:hover{
+    border: 2px solid #1cd420;
+}
+.guestPhoto{
+    float: left;
+    width: 360px;
+    /*height: 120px;*/
+    margin-right: 3px;
+    max-height: 210px;
+    overflow: hidden;    
+}
+.guestDesc{
+    float: left;
+    width: 450px;
+}
+.guestSetup{
+    float: right;
+    width: 150px;    
+}
+.guestSetupEdit{
+    float: right;
+    width: 150px; 
+    display: none;
+}
+.guestDescTitle{
+    float: left;
+    width: 135px;
+    padding: 5px 0 5px 0;
+    font-weight: bold;
+/*    height: 25px;*/
+}
+.guestDescInput{
+    float: left;
+    width: 300px;
+    padding: 5px 0 5px 0;
+}
+.findTitleActive{
+    float: left;
+    margin-right: 10px;
+    width: 465px;
+    margin-top: 4px;
+}
+.findInputActive{
+    float: left;
+    width: 174px;
+    margin-right: 5px;
+}
+.findButtonActive{
+    float: left;
+    padding: 5px 10px;
+    background-color: #ef9a20;
+    color: white;
+    cursor: pointer;
+}
+.findButtonActive:hover{
+    background-color: #1cd420;
+}
+.searchInput{
+    padding: 5px;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    
+}
+.setupButtonActive{
+    padding: 5px 0;
+    background-color: #ef9a20;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.setupButtonActive:hover{
+    background-color: #1cd420;
+}
+.guestDescInput input{
+    border-radius: 0;
+    width: 299px;
+}
+.setupButtonCancel{
+    padding: 5px 0;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;    
+}
+.setupButtonCancel:hover{
+    background-color: #1cd420;
+}
+.guestCardBlockSmall{
+    float: left;
+    /*width: 200px;*/
+    margin: 0 10px 10px 0;
+    border: 2px solid #ef9a20;
+    padding: 5px;
+
+}
+.guestCardBlockSmall:hover{
+    border: 2px solid #1cd420;
+}
+.guestPhotoSmall{
+    float: left;
+    width: 120px;
+    /*height: 120px;*/
+    /*margin-right: 5px;*/
+    max-height: 66px;
+    overflow: hidden;    
+}
+.guestSetupSmall{
+    float: right;
+    width: 139px;
+    margin-left: 5px;
+}
+.tableCreated{
+    margin: 10px 0;
+}
+.tableCrBlock{
+    float: left;
+    margin-right: 10px;
+    width: 115px;
+}
+.tableCrBlock input{
+    width: 50px;
+}
+.cancelTableButton{
+    padding: 5px 0;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.createTableButton{
+    padding: 5px 0;
+    background-color: #ef9a20;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.cancelTableButton:hover, .createTableButton:hover{
+    background-color: #1cd420;
+}
+.opensTableOnline{
+    margin: 10px 0;
+}
+.opensTableDiv{
+    /*float: left;*/
+    margin: 0 0 10px 0;
+    /*padding: 5px;*/
+    /*width: 500px;*/
+    /*height: 200px;*/
+    border: 2px solid #ef9a20;
+}
+.opensTableDiv:hover{
+    border: 2px solid #1cd420;
+}
+.setupButtonActive a{
+    color: white !important;
+}
+.tableIcon{
+    float: left;
+    margin: 0 5px 5px 0;
+    padding: 5px;
+    background-color: #ef9a20;
+    color: white;
+    cursor: pointer;
+}
+.tableIcon:hover{
+    background-color: #1cd420;
+}
+.gInTabImg{
+    float: left;
+    width: 136px;
+    margin: 0 5px 5px 0;
+    max-height: 66px;
+    overflow: hidden;    
+}
+.guestInThisTable{
+    margin-top: 5px;
+}
+.guestInTableSet{
+    width: 16px;
+    float: right;
+}
+.inTableGuestBlock{
+    background-color: #83ff70;
+    border-color: #83ff70 !important;
+}
+.addProductButton{
+    float: left;
+    padding: 5px 10px;
+    background-color: #ef9a20;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.addProductButton:hover{
+    background-color: #1cd420;
+}
+.tableProductList{
+    margin: 5px 0;
+}
+.openTableLeft{
+    float: left;
+    width: 625px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.openTableRight{
+    float: left;
+    width: 398px;
+}
+.tableProductTable{
+    margin: 10px 0 0 0;
+    border-collapse: collapse;
+    border: 1px solid #1cd420;    
+    width: 397px;
+}
+.tableProductTable thead tr td{
+    background-color: #1cd420;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+.tableProductTable tbody tr td{
+    padding: 5px;
+    border: 1px solid #1cd420;
+}
+.tableProductTable tbody tr td input{
+    width: 60px;
+}
+.tableTotalPrice{
+    margin: 10px 0;
+    text-align: right;
+}
+.tableEditBlock{
+    margin: 10px 0;   
+}
+.tableEditButton{
+    float: right;
+    margin: 0 0 0 5px;
+    padding: 5px;
+    background-color: #ef9a20;
+    color: white;
+    cursor: pointer;
+}
+.tableEditButton:hover{
+    background-color: #1cd420;
+}
+.numberOfTables{
+    background-color: #ef9a20;
+    color: white;
+    padding: 5px 10px;
+    /*width: 60px;*/
+    font-size: 26px;
+    float: left;
+}
+.tableOpenDate{
+    float: right;
+    padding: 10px 10px 0 0;
+}
+.hiddenType{
+    display: none;
+}
+.insideBlockG{
+    float: left;
+    width: 330px;
+    max-height: 203px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-bottom: 5px !important;
+}
+.insideBlockGB{
+    float: left;
+    width: 330px;
+    max-height: 203px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-bottom: 5px !important;
+}
+.insideBlockP{
+    max-height: 203px;
+    width: 310px;
+}
+.quickAddGuest{
+    display: none;
+}
+.guestInsideQuick{
+    float: left;
+    width: 16px;
+}
+.afterChekbox{
+    margin-left: 10px;
+    display: none;
+}
+.forCheckboxBlock{
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+}
+.tablePointsList, .tableBDList{
+    margin: 10px 0;
+}
+.insideGuestTableNum{
+    background-color: #ef9a20;
+    color: white;
+}
+.tableRemark{
+    float: left;
+    padding: 11px 11px;
+    background-color: #ef9a20;
+    color: white;
+    cursor: pointer;    
+    margin-left: 10px;
+}
+.tableRemark:hover{
+    background-color: #1cd420;
+}
+.tableRemarkInp{
+    float: left;
+    padding: 6px 6px;
+    margin-left: 10px;  
+    width: 500px;
+    display: none;
+}
+.prevTitle{
+    font-size: 14px;
+    font-weight: bold;
+}
+.prevOrderSubmit{
+    padding: 11px 11px;
+    background-color: #ef9a20;
+    color: white;
+    cursor: pointer;     
+    margin-top: 5px;
+    text-align: center;
+}
+.prevOrderSubmit:hover{
+    background-color: #1cd420;
+}
+.guestSetupEdit{
+    float: right;
+    width: 150px; 
+    display: none;
+}
+.report_table{
+    float: left;
+    width: 200px;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #ef9a20;
+    color: white;    
+    text-align: center;
+    cursor: pointer; 
+    font-size: 16px;
+}
+.report_product{
+    float: left;
+    width: 200px;
+    padding: 20px;
+    background-color: #ef9a20;
+    color: white;    
+    text-align: center;
+    cursor: pointer; 
+    font-size: 16px;
+}
+.report_table:hover, .report_product:hover{
+    background-color: #1cd420;
+}
+.dayReportBlock{
+    display: none;
+}
+.activeReport{
+    background-color: #1cd420;
+}
+.productReportTitle{
+    float: left;
+    width: 150px;
+    padding: 5px 10px;
+    text-align: center;
+    border-left: 1px solid #1cd420;
+    border-right: 1px solid #1cd420;
+    border-bottom: 1px solid #1cd420;
+}
+.productReportAmount{
+    float: left;
+    width: 150px;
+    padding: 5px 10px;
+    text-align: center;
+    border-right: 1px solid #1cd420;
+    border-bottom: 1px solid #1cd420;    
+}
+.productReportHeader{
+    background-color: #1cd420;
+    color: white;
+}
+.productReportBlock{
+    float: left;
+    width: 360px;
+    margin-right: 10px;
+}
+.selectMonthBut{
+    padding: 0 5px !important;
+    font-size: 0.9em !important;
+
+}
+.month-year-input{
+    height: 29px !important;
+    width: 100px !important;
+}
+#MonthPicker_yearpicker{
+    width: 185px;
+}
+.numberOfTablesEdit{
+    float: left;
+    width: 36px;
+    height: 36px;
+}
+.tableTitleInp{
+    float: left;
+    padding: 6px 6px;
+    margin-left: 10px;  
+    width: 360px;
+    display: none;
+}
+.tableTitleInp input{
+    width: 50px;
+}
+.tableChoose{
+    float: left;
+    width: 50px;
+}

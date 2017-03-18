@@ -1,0 +1,116 @@
+.productBlock, .productBlockLast{
+    float: left;
+    width: 240px;
+    padding: 25px;
+    border: 2px solid black;
+    margin-top: 25px;
+}
+.productBlock:hover, .productBlockLast:hover{
+    border: 2px solid #ef9a20;
+}
+.productBlock{
+    margin-right: 54px;
+}
+.productBuyButton{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    padding: 10px 12px;
+    margin-top: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+.productBuyButton:hover, .productBuyClickButton:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+.productBuyClickButton{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    padding: 10px 12px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-align: center;    
+}
+.productImageCatalog{
+    width: 240px;
+    height: 420px;
+    position: relative;
+    cursor: pointer;
+}
+.productImageCatalog a{
+    color: white;
+    outline: medium none;
+    text-decoration: none;    
+}
+.productImageCatalog a:hover{
+    color: #ef9a20;
+}
+.priceAngleCatalog{
+    float: right;
+    background:transparent url("../i/angle.png") no-repeat 0 0;
+    width: 101px;
+    height: 101px;
+    color: black;
+    font-size: 14px;
+    text-align: right;
+    padding: 10px 10px 0 0;
+    line-height: 16px;
+}
+.priceAngleCatalog span.anglePriceValCatalog{
+    font-size: 21px;
+}
+.productTitleCatalog{
+    position: absolute;
+    bottom: 0;
+    background:transparent url("../i/product_title_back.png") no-repeat 0 0;
+    width: 192px;
+    height: 42px;
+    text-align: left;
+    padding: 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    vertical-align: middle;
+}
+@media (max-width:1118px){
+    .productBlock{
+        margin-right: 50px !important;
+    }
+}
+@media (max-width:1113px){
+    .productBlock{
+        margin-right: 45px !important;
+    }    
+}
+@media (max-width:1101px){
+    .productBlock{
+        margin-right: 30px !important;
+    }        
+}
+@media (max-width:1064px){
+    .productBlock{
+        margin-right: 20px !important;
+    }        
+}
+@media (max-width:1042px){
+    .productBlock{
+        margin-right: 10px !important;
+    }        
+}
+@media (max-width:1020px){
+    .productBlock{
+        padding: 10px !important;
+    }       
+    .productBlockLast{
+        padding: 10px !important;
+    }    
+}
+@media (max-width:920px){  
+    .productBlockLast{
+        margin-right: 10px !important;
+    }    
+}

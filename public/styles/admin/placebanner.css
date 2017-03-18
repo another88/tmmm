@@ -1,0 +1,322 @@
+/* 
+    Document   : placebanner
+    Created on : 24.05.2012, 16:04:18
+    Author     : BlackWolf
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#placeImage {
+    visibility: hidden;
+}
+
+.mapAera {
+    position: absolute;
+    cursor:pointer;
+}
+
+.mapAera:hover {
+    background: rgba(0,0,0, 0.1);
+    border: 2px solid #82acac;
+}
+
+.areaH1 {
+    width: 240px;
+    height: 30px;
+    top:312px;
+    left: 11px;
+}
+
+.areaH2 {
+    width: 240px;
+    height: 30px;
+    top:312px;
+    left: 255px;
+}
+
+.areaH3 {
+    width: 240px;
+    height: 30px;
+    top: 510px;
+    left: 11px;
+}
+
+.areaH4 {
+    width: 240px;
+    height: 30px;
+    top: 510px;
+    left: 255px;
+}
+
+.areaH5 {
+    width: 108px;
+    height: 104px;
+    top: 678px;
+    left: 16px;
+}
+
+.areaH5c {
+    width: 110px;
+    height: 106px;
+    top: 548px;
+    left: 138px;
+}
+
+.areaH6 {
+    width: 362px;
+    height: 62px;
+    top: 804px;
+    left: 11px;
+}
+
+.areaMC2 {
+    width: 145px;
+    height: 45px;
+    top: 656px;
+    left: 344px;
+}
+.areaMC1 {
+    width: 323px;
+    height: 45px;
+    top: 656px;
+    left: 15px;
+}
+
+.areaSC2 {
+    width: 140px;
+    height: 43px;
+    top: 643px;
+    left: 342px;
+}
+.areaSC1 {
+    width: 318px;
+    height: 43px;
+    top: 643px;
+    left: 17px;
+}
+
+.areaJC2 {
+    width: 145px;
+    height: 43px;
+    top: 668px;
+    left: 345px;
+}
+.areaJC1 {
+    width: 327px;
+    height: 43px;
+    top: 668px;
+    left: 10px;
+}
+
+.areaE2 {
+    width: 145px;
+    height: 43px;
+    top: 666px;
+    left: 345px;
+}
+.areaE1 {
+    width: 327px;
+    height: 43px;
+    top: 666px;
+    left: 10px;
+}
+
+.areaF2 {
+    width: 142px;
+    height: 43px;
+    top: 572px;
+    left: 340px;
+}
+.areaF1 {
+    width: 317px;
+    height: 43px;
+    top: 572px;
+    left: 19px;
+}
+
+.areaN2 {
+    width: 142px;
+    height: 43px;
+    top: 618px;
+    left: 345px;
+}
+.areaN1 {
+    width: 322px;
+    height: 43px;
+    top: 618px;
+    left: 15px;
+}
+
+.areaCl1 {
+    width: 118px;
+    height: 50px;
+    top: 429px;
+    left: 17px;
+}
+
+.mapModal {
+    position: fixed;
+    top: 0; 
+    left: 0 ;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    z-index: 100;
+    display: none;
+}
+
+/* ie */
+.mapModal {
+/*    //position: absolute;   для всех ie */
+}
+
+.mapModal > div {
+    position: absolute;
+    width:100%;
+    height:100%;
+    overflow-y: scroll;
+}
+
+.mapModal .modalBody {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -532px;
+    width: 1000px;
+    min-height: 200px;
+    background: #fff;
+    border: 1px solid #000;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -o-border-radius: 16px;
+    border-radius: 16px;
+    padding: 16px;
+}
+.mapModal .closeModal {
+    background: url("../../i/i-close.png") 0 0 no-repeat;
+    width: 85px;
+    height: 25px;
+    z-index: 10;
+    position: absolute;
+    right: 50%;
+    margin-right: -515px;
+    top: 30px;
+    cursor: pointer;
+}
+.mapModal .closeModal:hover {
+    background-position: 0 -27px;
+}
+.mapModal .closeModal:active {
+    background-position: 0 -54px;
+}
+
+.mapModal #approvedBanner,.mapModal #notApprovedBanner,.mapModal #newBanner {
+    padding: 10px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -o-border-radius: 16px;
+    border-radius: 16px;
+    margin: 5px;
+}
+
+#approvedBanner {
+    border: 1px solid #ffe291;
+}
+
+#notApprovedBanner {
+    border: 1px solid #82acac;
+}
+#newBanner .newBannerDate {
+    display: none;
+}
+#newBanner {
+    border: 1px solid #8dff1c;
+}
+
+.bannerBlock:not(:last-of-type) {
+    border-bottom: 1px solid #ffe291;
+}
+
+.bannerBlock {
+    padding: 5px;
+}
+
+.bannerBlockNotBottomBorder {
+    padding: 5px;
+}
+.bannerBlock .leftBlock {
+    float:left; 
+    width: 750px;
+}
+.bannerBlock .title {
+    padding: 4px;
+}
+.bannerBlock .banner {
+    margin: 2px;
+}
+
+.mapModal .noBanners {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.mapModal .noBanners div {
+    color: #ccc;
+}
+.json {
+    display: none;
+}
+.mapModal .save {
+    width: 1000px;
+    position: relative;
+    text-align: center;
+}
+.mapModal .save input {
+    border: 1px solid #ccc;
+    width: 120px;
+    padding: 5px;
+    background: #ddd;
+    color: #aaa;
+}
+.mapModal .save input.active {
+    background: #eeefef;
+    color: #333;
+    cursor: pointer;
+}
+.mapModal .save input.active:hover {
+    background: #ffe291;
+}
+.mapModal .errorPercent {
+    color: #c80621;
+    text-align: center;
+    padding: 4px;
+    display: none;
+}
+.mapModal .errorDate {
+    color: #c80621;
+    text-align: center;
+    padding: 4px;
+    display: none;
+}
+
+.ui-datepicker-trigger {
+    padding: 0 !important;
+    cursor: pointer !important;
+}
+
+.inputDateFrom {
+    border: 0 !important;
+    outline: none;
+    text-decoration: underline;
+}
+
+.inputDateTo {
+    border: 0 !important;
+    outline: none;
+    text-decoration: underline;
+}
+
+.mapModal input:not(.inputDateFrom):not(.inputDateTo) {
+    cursor: pointer;
+}

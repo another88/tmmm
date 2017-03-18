@@ -1,0 +1,47 @@
+.registryText{
+    /*margin-top: 25px;*/
+}
+.regInputTitle{
+    float: left;
+    width: 90px;
+    text-align: right;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.regInputField{
+    float: left;
+    width: 233px;
+}
+.registryButton{
+    float: left;
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+.registryButton:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+#registry_message{
+    float: left;
+    width: 380px;
+    margin-left: 10px;    
+}
+.regInputBlock{
+    float: left;
+    width: 340px;
+    margin-top: 15px;
+}
+@media (max-width:1116px){
+    .contentInnerRight{
+         display: none;
+    }    
+    .contentInnerLeft{
+        margin-right: 0 !important;
+        width: 100%;
+        max-width: 990px;
+    }
+}

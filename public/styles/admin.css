@@ -1,0 +1,218 @@
+/* 
+    Document   : admin css
+    Created on : 23.01.2010, 20:51:15
+    Author     : Serg
+*/
+
+.container{border:1px solid #FF9800}
+/*.content a:hover{color: #FFF}*/
+
+.content ul{padding: 0; list-style-type: none}
+h3, h4{margin-right: 15px; float: left}
+span{font-weight: bold}
+a {color: #263248; text-decoration: underline}
+a:hover{color: #7E8AA2; text-decoration: none}
+
+sup.requiredsup {color: #CC0000}
+
+.button-link{
+    font: bold 11px Arial;
+    display: inline;
+    color: #FFF;    
+    letter-spacing: 1px;
+    background-color: #FF9800; /*Default menu color*/
+    text-decoration: none;
+    padding: 5px
+}
+.button-link:hover{
+    background-color: #7E8AA2; /*Menu hover bgcolor*/
+    color: #FFF
+}
+
+.button{
+    font: bold 11px Arial;
+    display: inline;
+    color: #FFF;
+    letter-spacing: 1px;
+    background-color: #FF9800;
+    border:1px solid #7E8AA2;
+    padding: 5px
+}
+.button:active{background-color: #7E8AA2; color: #FFF; padding: 7px 3px 3px 7px}
+span.available{background:transparent url('img/shop_available_green.gif') no-repeat scroll 0 3px;padding-left: 10px}
+span.notavailable{background:transparent url('img/shop_available_orange.gif') no-repeat scroll 0 3px;padding-left: 10px}
+
+table.listing{border: 1px solid #FF9800; border-collapse: collapse; table-layout: auto}
+table.listing tr{border: 1px solid #FF9800}
+table.listing tr:hover{background: #7E8AA2}
+table.listing tr td{border: 1px solid #FF9800; text-align: center}
+table.listing tr td a{color: #263248; text-decoration: none}
+table.listing tr td a:hover{color: #FFF}
+table.listing thead tr td{background: #FF9800; font: bold 11px Arial; color: #FFF}
+table.listing tr td.made{text-align: left;}
+
+
+td.icon{width: 60px}
+table.listing td.title-link{text-align: left; width: 100%}
+
+.look{
+    background:transparent url("../styles/src/admin/look.png") no-repeat left top;
+    height:16px;
+    padding: 0 0 0 22px;
+    text-align: left;
+}
+table tr td a.lookC:hover{color: #FFF;}
+.img{text-align: center; margin: 15px 0}
+.img-list{
+    text-align: center;
+    display: table-cell;
+    height: 130px;
+    vertical-align: middle;
+    width: 220px
+}
+
+.footer{height: 80px; border-top: 1px solid #FF9800}
+
+legend {
+    background:none repeat scroll 0 0 #FF9800;
+    color:#FFF;
+    font-size:1.1em;
+    font-weight:bold;
+    padding:5px
+}
+fieldset{border: 1px solid #FF9800}
+
+#sidebar-menu ul{list-style: none; padding-left: 0.5em}
+#sidebar-menu ul li{display: block; margin-bottom: 11px;}
+#sidebar-menu div a.shiftdel{
+    display: block;
+    padding: 2px;
+    text-decoration: none;
+    height: 20px;
+    width: 181px;
+    border-left: 5px solid  #FF9800;
+    line-height: 20px;
+    background-color: antiquewhite;
+}
+#sidebar-menu div a.shiftdel:hover, #sidebar-menu div a.shiftdel:focus{
+    display: block;
+    padding: 2px;
+    text-decoration: none;
+    height: 20px;
+    width: 179px;
+    border-left: 5px solid  #FF9800;
+    line-height: 20px;
+    background-color: Beige;
+    color: #000;
+    padding-left: 4px;
+}
+#admin-sidebar-view{
+    height: 25px;
+    width: 181px;
+    border-left: 5px solid  #FF9800;
+    padding: 2px;
+    line-height: 25px;
+    font-size: 1.2em;
+    background-color: #FF9800;
+    color: #FFF;
+}
+
+
+textarea.metadescription{height: 136px}
+
+.technical-value input{
+	height: 18px !important;
+        padding:1px !important;
+} 
+.technical-value a{
+	height: 10px !important;
+}
+.img-in-list {display: inline-block; text-align: center}
+input.date{width: 95px}
+label.span-3 {line-height: 3}
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+#menu{
+    padding: 0;
+    width: 100%;
+    background: transparent;
+    voice-family: "\"}\"";
+    voice-family: inherit;
+}
+
+#menu ul{
+    font: bold 10px Arial;
+    margin:0;
+    margin-left: 60px; /*margin between first menu item and left browser edge*/
+    padding: 0;
+    list-style: none;
+}
+
+#menu li{
+    display: inline;
+    margin: 0 2px 0 0;
+    padding: 0;
+    text-transform:uppercase;
+}
+
+#menu a{
+    float: left;
+    display: block;
+    color: #FFF;
+    margin: 0 1px 0 0; /*Margin between each menu item*/
+    padding: 5px 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-color: #263248; /*Default menu color*/
+    border-bottom: 1px solid white;
+}
+
+#menu a:hover{
+    background-color: #7E8AA2; /*Menu hover bgcolor*/
+}
+
+#menu #current a{ /*currently selected tab*/
+                  background-color: #FF9800;
+                  border-color: #FF9800
+}
+
+#menuline{
+    clear: both;
+    padding: 0;
+    width: 100%;
+    height: 5px;
+    line-height: 5px;
+    background: #FF9800
+}
+#back-button-margin{margin-left: 5px;}
+/*      End Menu style      */
+table.expert-list{border: 1px solid #FF9800; table-layout: auto}
+table.expert-list thead tr td{background: #FF9800; font: bold 11px Arial; color: #FFF;}
+table.expert-list tr:hover{background: #7E8AA2; color: #fff;}
+table.expert-list tr{border: 1px solid #FF9800;}
+table.expert-list thead td.title{width: 200px;}
+#category-add{padding: 7px 0px;}
+#expertImage{text-align: right;}
+
+.biglinks{font-size: 1.2em; text-transform: uppercase;}
+.works-add{
+    line-height: 30px
+}
+.works-add.line{height: 30px; }
+#atation{
+    font-size: 10px;
+    color: #CC0000
+}
+#sidebar-works{text-align: center}
+#sidebar{margin-left: 10px; border-bottom: 1px solid #FFF}
+.leftlink a{
+    background:transparent url("../styles/src/admin/look.png") no-repeat left top;
+    height:16px;
+    padding: 0 0 0 22px;
+    text-align: left;
+}
+.leftlink{
+    text-align: left !important
+}
+#undelete{font-size: 9px; color: red; line-height: 9px;}

@@ -1,0 +1,20 @@
+#mask{position:absolute;top:0;left:0;background-color:#858585;z-index:10000;display:none;}
+.popup{position:absolute;z-index:10001;display:none;margin-left:-20px;width:378px;}
+.feedbackHeader{color:#ef9a20;background-color:black;padding:15px;font-size:15px;text-transform:uppercase;}
+.popupContent{padding:20px;background-color:white;border:2px solid black;}
+.popupInp{margin-top:3px;width:220px;height:22px;}
+.error{color:red;}
+.done{color:green;}
+.popupInputTitle{float:left;width:90px;text-align:right;margin-right:10px;}
+.popupInputField{float:left;width:233px;}
+.popupButton{float:left;padding:9px 20px;color:white;background-color:black;cursor:pointer;text-transform:uppercase;}
+.popupButton:hover{color:black;background-color:#ef9a20;}
+#popup_message, #login_message{float:left;width:220px;margin-left:20px;}
+#product_popup_message{}
+.popupproductPageImage{float:left;width:240px;margin-right:20px;}
+.popupproductPageText{float:left;width:433px;position:relative;}
+.popupproductBuyButtons{position:absolute;bottom:0;right:0;}
+.popupproductPrice{float:right;width:99px;margin-right:5px;font-size:23px;color:#ef9a20;padding-top:17px;}
+.popupProductTitle{text-transform:uppercase;font-size:20px;font-weight:100;}
+.popupProductBuyButton{float:right !important;margin-right:29px;margin-top:10px;}
+.popupProductMargin{margin-top:10px;}

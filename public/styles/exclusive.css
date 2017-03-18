@@ -1,0 +1,67 @@
+.exslText{
+    /*margin-top: 25px;*/
+}
+.stepOne{
+    margin-top: 40px;
+}
+.stepTitle{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.exclInputTitle{
+    float: left;
+    width: 86px;
+    text-align: right;
+    margin-right: 10px;
+}
+.exclInputField{
+    float: left;
+    width: 233px;    
+}
+.stepTwo{
+    margin-top: 40px;
+}
+.exclExImg{
+    /*float: left;*/
+    width: 222px;
+    margin-right: 23px;
+    margin-top: 25px;
+}
+.exclExImgLast{
+    margin-right: 0 !important;
+}
+.exclTextBlock{
+    width: 600px !important;
+}
+.exclTextarea{
+    width: 580px;
+    height: 80px;
+}
+.exclButton{
+    float: right;
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.exclButton:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+#excl_message{
+    float: right;
+    width: 390px;
+    margin-right: 20px;    
+}
+.exclSucces{
+    margin-top: 15px;
+    color: green;
+}
+.exclInputBlock{
+    float: left;
+    width: 330px;
+    margin-top: 5px;
+}

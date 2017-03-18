@@ -1,0 +1,77 @@
+.wholesaleBlock{
+    padding: 30px 0;
+    border-bottom: 1px solid black;
+}
+.lastBlock{
+   border: none;
+}
+.wbLeftText{
+    float: left;
+    width: 71%;
+}
+.wbRightImage{
+    float: right;
+    width: 25%;
+}
+.wbRightText{
+    float: right;
+    width: 71%;
+}
+.wbLeftImage{
+    float: left;
+    width: 25%;
+}
+.wbText{
+    height: 144px;
+    padding-top: 15px;
+}
+.wbButton{
+    float: left;
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.wbButton:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+.wbUl li{
+    list-style: disc !important;
+}
+.wbUl{
+    padding-left: 14px;
+}
+@media (max-width:990px){
+    .wbRightImage, .wbLeftImage{
+        display: none;
+    }
+    .wbRightText{
+        float: left;
+        width: 98%;
+    }
+    .wbLeftText{
+        width: 98%;
+    }
+}
+@media (max-width:680px){
+    .wbText{
+        height: 160px;
+    }
+}
+@media (max-width:670px){
+    .wbText{
+        height: 180px;
+    }
+}
+@media (max-width:545px){
+    .wbText{
+        height: 200px;
+    }
+}
+@media (max-width:486px){
+    .wbText{
+        height: 220px;
+    }
+}

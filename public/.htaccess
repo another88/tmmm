@@ -1,0 +1,15 @@
+AddDefaultCharset UTF-8
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^interesting/(.*)\.html$ index.php?realuri=interesting/view/id/$1
+RewriteRule ^content/(.*)\.html$ index.php?realuri=content/view/id/$1
+RewriteRule ^catalog/(.*)\.html$ index.php?realuri=catalog/index/id/$1
+RewriteRule ^product/(.*)\.html$ index.php?realuri=product/details/id/$1
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php  [L]

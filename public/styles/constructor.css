@@ -1,0 +1,264 @@
+.constructorLeft{
+    /*float: left;*/
+    width: 575px;
+    margin: 0 auto;
+    /*margin-right: 119px;*/
+}
+.constructorRight{
+    float: left;
+    width: 296px;
+    margin-top: 4px;
+}
+.constructorText{
+    /*margin-top: 25px;*/
+}
+.clearButtonChoice{
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+.clearButtonChoice:hover{
+    text-decoration: underline;
+}
+.constructorRightContent{
+    /*border: 2px solid black;*/
+    min-height: 200px;
+}
+.rightTitleConstr{
+    background-color: black;
+    color: #ef9a20;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;    
+}
+.constructorRightItem{
+    padding: 10px 0;
+}
+.choiceBlockItem{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid #d7d7d7;
+    color: black;
+    text-transform: uppercase;
+}
+.choiceBlockItem:hover{
+    background-color: #ef9a20;
+    border: 0;
+    padding: 7px 12px;    
+}
+.choiceBlockItemActive{
+    background-color: #ef9a20;
+    border: 0;
+    padding: 7px 12px;    
+    text-transform: uppercase;
+}
+.choiceBlockItemActive span{
+    text-transform: uppercase;
+}
+.deleteButtonChoice{
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+.deleteButtonChoice:hover{
+    text-decoration: underline;
+}
+.backButtonChoice{
+    float: right;
+    cursor: pointer;
+    padding-right: 10px;
+    color: white;
+}
+.backButtonChoice:hover{
+    text-decoration: underline;
+}
+/*.choiceBlockItemElement{
+    cursor: pointer;
+    border: 2px solid #ef9a20;
+    border-top: 0;
+    padding: 10px 5px;
+}
+.choiceBlockItemElement:hover{
+    border-color: black;
+}*/
+.elementImage{
+    float: left;
+    width: 170px;
+    margin-right: 5px;
+}
+.elementText{
+    float: left;
+    width: 107px;
+}
+.conElement{
+    padding: 4px;
+    background-color: white;  
+    cursor: pointer;
+    /*position: relative;*/
+    /*border: 2px solid #d7d7d7;*/
+}
+/*.conElement:hover{
+    background-color: #ef9a20;
+    border: 0;
+    padding: 7px;    
+}*/
+.conLeftPart{
+    float: left;
+    width: 248px;
+    /*margin-right: 5px;*/
+}
+.consRightPart{
+    float: left;
+    width: 327px;
+}
+.conKolba{
+    width: 240px;
+    height: 240px;
+    /*margin-top: 5px;*/
+}
+.conShaxta{
+    width: 240px;
+    height: 420px;
+}
+.conTrybka{
+    width: 319px;
+    height: 319px;    
+}
+.bowlMainBlock{
+    float: left;
+    width: 150px;
+    margin-right: 19px;    
+}
+.conBowl{
+    width: 150px;
+    height: 150px;
+}
+.shipciMainBlock{
+    float: left;
+    width: 150px;
+    margin-right: 21px;
+}
+.conShipci{
+    width: 150px;
+    height: 150px;
+}
+.bludceMainBlock{
+    float: left;
+    width: 150px;
+}
+.conBludce{
+    width: 150px;
+    height: 150px;
+}
+.json{
+    display: none;
+}
+.choiceBlockItemInner{
+    display: none;
+}
+/*.contrPriceBlock{
+    margin-top: 10px;
+    text-align: right;
+}*/
+.contrPriceBlock{
+    float: left;
+    margin-top: 38px;
+    text-align: right;
+    width: 152px;
+}
+.contrCartButton, .contrClearButton{
+    float: right;
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+    width: 110px;
+    text-align: center;
+}
+.contrCartButton:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+.contrClearButton:hover{
+    color: black;
+    background-color: red;    
+}
+.constructorBaseContent{
+    border: 2px solid black;
+    margin: 0 0 20px 0;
+}
+.constructorBaseItem{
+    padding: 15px;
+    display: none;
+}
+.baseChoiceBlockItem{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid #d7d7d7;
+    color: black;
+    text-transform: uppercase;
+}
+.baseChoiceBlockItem:hover{
+    background-color: #ef9a20;
+    border: 0;
+    padding: 7px 12px;   
+}
+.contrPriceBlock strong{
+    color: #ef9a20;
+    text-transform: uppercase;
+}
+.popupContentCheckout{
+    padding: 0;
+    background-color: white;
+    border: 2px solid black;    
+    border-bottom: none;
+    border-right: none;
+}
+.choiceBlockItemElement{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    float: left;
+    width: 297px;
+    border-right: 2px solid black;
+}
+.consClearBlockButton{
+    width: 96%;
+    background-color: black;
+    color: #ef9a20;
+    padding: 9px 1px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: -4px 0 0 4px;
+    display: none;
+}
+.consClearBlockButton:hover{
+    background-color: red;
+    color: black;
+}
+.ccbbtr{
+    width: 97%;
+}
+.ccbbb, .ccbbbl, .ccbbbs{
+    width: 97%;
+    padding: 9px 2px;
+}
+.addedSpace{
+    height: 10px;
+}
+/*@media (max-width:1116px){
+    .constructorLeft{
+        margin-right: 10px;
+    } 
+}*/
+/*.constructorMenu{
+    border-top: 1px solid #797979;
+    border-bottom: 1px solid #797979;
+    padding: 20px 0;
+    margin: 20px 0;
+}*/

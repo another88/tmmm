@@ -1,0 +1,38 @@
+.smTitle{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+}
+.smSubBlock{
+    margin-left: 20px;
+}
+.sm_item{
+    margin-bottom: 5px;
+}
+.last_sm_block{
+    margin-bottom: 0 !important;
+}
+.smSubSubBlock{
+    margin-left: 40px;    
+}
+.smLeft{
+    float: left;
+    width: 350px;
+}
+.smRight{
+    float: left;
+    width: 345px;
+}
+.smBlock{
+    margin-bottom: 25px;
+}
+@media (max-width:1116px){
+    .contentInnerRight{
+         display: none;
+    }    
+    .contentInnerLeft{
+        margin-right: 0 !important;
+        width: 100%;
+        max-width: 990px;
+    }
+}

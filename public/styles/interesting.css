@@ -1,0 +1,191 @@
+.interestingBlockNew{
+    margin-top: 20px;
+    width: 477px;
+    float: left;
+    margin-right: 35px;
+    height: 209px;
+}
+.interestingBlockLeft{
+    float: left;
+    /*width: 430px;*/
+    color: white;
+    border: 2px solid black;
+    height: 205px;
+    background-color: black;
+}
+.interestingBlockLeft:hover{
+    background-color: #ef9a20;
+    cursor: pointer;
+}
+.interestingBlockLeft:hover .interesTitle{
+    color: black;
+}
+.interestingBlockLeft:hover a{
+    color: black;
+}
+.orangeLine{
+    width: 2px;
+    height: 100%;
+    background-color: #ef9a20;
+    float: left;
+}
+.interestingRight{
+    float: left;
+    width: 37px;
+    padding: 37px 0 0 3px;
+    background-color: black;
+    height: 172px;
+}
+.interesImage{
+    float: left;
+    width: 205px;
+    margin-right: 10px;
+}
+.interesDescription{
+    float: left;
+    width: 258px;
+    position: relative;
+    height: 195px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.interesDescriptionLong{
+    float: left;
+    width: 96%;
+    position: relative;
+    height: 195px;
+    padding: 10px;
+    overflow: hidden;
+}
+.interesTitle{
+    font-size: 15px;
+    margin-bottom: 5px;
+    float: left;
+    text-transform: uppercase;
+    color: #ef9a20;
+}
+.interestLeft{
+    padding-top: 25px;
+}
+.interestingPageTextShare{
+    margin-top: 10px;
+    float: left;
+    width: 150px;
+}
+.interestViews{
+    float: right;
+    width: 100px;
+}
+.viewsCount{
+    float: right;
+    width: 30px;
+    margin: 6px 0 0 5px;
+    text-align: right;
+}
+.interestNav{
+    margin-top: 40px;
+}
+.interestMenuBlock{
+    float: left;
+    width: 217px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
+    overflow: hidden;
+    height: 80px;
+}
+.interestMenuBlock:hover{
+    background-color: #ef9a20;
+}
+.interestMenuBlock:hover a{
+    color: black;
+}
+.interestMenuActiveBlock{
+    background-color: #ef9a20;
+}
+.interestMenuActiveBlock a{
+    color: black;
+}
+.inNavDesc{
+    overflow: hidden;
+    width: 218px;
+    height: 60px;
+}
+.productBlockMain, .productBlockMainLast{
+    float: left;
+    width: 240px;
+    padding: 25px;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+.productBlockMain:hover, .productBlockMainLast:hover{
+    border: 2px solid #ef9a20;
+}
+.productBlockMain{
+    margin-right: 54px;
+}
+.mainProductImage{
+    width: 240px;
+    height: 420px;
+    position: relative;
+    cursor: pointer;
+}
+.mainProductBuy{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    padding: 10px 12px;
+    margin-top: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+.mainProductBuy:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+.priceAngle{
+    float: right;
+    background:transparent url("../i/angle.png") no-repeat 0 0;
+    width: 101px;
+    height: 101px;
+    color: black;
+    font-size: 14px;
+    text-align: right;
+    padding: 10px 10px 0 0;
+    line-height: 16px;
+}
+.priceAngle span.anglePriceVal{
+    font-size: 21px;
+}
+.mainProductTitle{
+    position: absolute;
+    bottom: 0;
+    background:transparent url("../i/product_title_back.png") no-repeat 0 0;
+    width: 192px;
+    height: 42px;
+    text-align: left;
+    padding: 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    vertical-align: middle;
+}
+.likeProductBlock{
+    margin: 40px 0 0 0;
+}
+.likeProductBlock a{
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+.likeProductBlock a:hover{
+    color: #ef9a20;
+}
+.likeProductTitle{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Host: ace-hookah.com
+Sitemap: http://ace-hookah.com/sitemap.xml

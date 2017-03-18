@@ -1,0 +1,193 @@
+.productPageImage{
+    float: left;
+    width: 240px;
+    height: 420px;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.productPageImageSmall{
+    float: left;
+    width: 242px;
+    height: 105px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.productPageTextShare{
+    float: right;
+    width: 115px;
+    height: 30px;
+    margin-top: 10px;
+}
+.productPageText{
+    float: left;
+    width: 730px;
+    height: 420px;
+    position: relative;
+    margin-top: 25px;
+}
+.productBuyButtons{
+    margin-top: 10px;
+    float: right;
+    width: 566px;
+/*    position: absolute;
+    bottom: 0;
+    right: 0;*/
+}
+.productDelLink{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.onClickOrderOnProductPage{
+    float: right;
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;  
+    margin-left: 5px;
+}
+.onClickOrderOnProductPage:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+.toCartButtonOnProductPage{
+    float: right;
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;  
+    margin-left: 5px;
+}
+.toCartButtonOnProductPage:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+.amountBlock{
+    float: right;
+    width: 46px;
+}
+.amountBlock input{
+    float: left;
+    width: 17px;
+    height: 25px;
+    border: 2px solid black;
+    border-right: 0;
+}
+.amountChange{
+    float: left;
+    width: 14px;
+    border: 1px solid #0F8286;
+    text-align: center;
+    height: 35px;
+}
+.amountUp{
+    width: 14px;
+    height: 15px;
+    background: url("../i/updown.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+.amountDown{
+    width: 14px;
+    height: 20px;
+    background: url("../i/updown.png") 0 -15px no-repeat;
+    cursor: pointer;
+}
+.amountUp:hover{
+    background: url("../i/updown_hover.png") 0 0 no-repeat;
+}
+.amountDown:hover{
+    background: url("../i/updown_hover.png") 0 -15px no-repeat;
+}
+.productSmallImage{
+    float: left;
+    width: 60px;
+    height: 105px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    cursor: pointer;
+}
+#commentBlock{
+    margin-top: 50px;
+}
+.commentTitle{
+    font-size: 20px;
+    margin: 5px 0 10px 0;
+    text-transform: uppercase;
+}
+.commentTextarea{
+    width: 480px;
+    height: 70px;
+}
+.commentButton{
+    float: left;
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;  
+}
+.commentButton:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+.productCommentItem{
+    padding: 0 5px 10px 5px;
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+}
+.productCommentName{
+    float: left;
+    width: 150px;
+    text-align: left;
+    color: #ef9a20;
+    margin-bottom: 10px;
+}
+.productCommentDate{
+    float: right;
+    width: 150px;
+    text-align: right;
+    color: #ef9a20;
+    margin-bottom: 10px;
+}
+.commentInputTitle{
+    float: left;
+    width: 75px;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 10px;    
+}
+.commentInputField{
+    float: left;
+    width: 233px;       
+}
+.commentInputFieldBig{
+    float: left;
+    width: 445px;      
+}
+.productPrice{
+    float: right;
+    width: 99px;
+    margin-right: 5px;
+    font-size: 23px;
+    color: #ef9a20;
+    padding-top: 7px;
+}
+#comment_message{
+    float: left;
+    width: 220px;
+    margin-left: 10px;
+}
+.addCommentBlock{
+    margin-top: 30px;
+}
+h1{
+    margin-top: 0 !important;
+}
+.productPriceUp{
+    float: right;
+    font-size: 23px;
+    color: #ef9a20;
+}

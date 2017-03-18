@@ -1,0 +1,293 @@
+.amountBlockCheckout{
+    float: right;
+    width: 46px;
+    margin-right: 20px;
+}
+.amountBlockCheckout input{
+    float: left;
+    width: 17px;
+    height: 25px;
+    border: 2px solid black;
+    border-right: 0;
+}
+.amountChangeCheckout{
+    float: left;
+    width: 14px;
+    border: 1px solid #0F8286;
+    text-align: center;
+    height: 35px;
+}
+.amountUpCheckout{
+    width: 14px;
+    height: 15px;
+    background: url("../i/updown.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+.amountDownCheckout{
+    width: 14px;
+    height: 20px;
+    background: url("../i/updown.png") 0 -15px no-repeat;
+    cursor: pointer;
+}
+.amountUpCheckout:hover{
+    background: url("../i/updown_hover.png") 0 0 no-repeat;
+}
+.amountDownCheckout:hover{
+    background: url("../i/updown_hover.png") 0 -15px no-repeat;
+}
+
+.checkoutTable{
+    width: 100%;
+    margin: 25px 0;
+}
+.checkoutTable thead tr td{
+    padding: 10px;
+    background-color: black;
+    border: 2px solid black;
+    color: #ef9a20;
+    text-transform: uppercase;
+}
+.checkoutTable tbody tr td{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.checkoutPriceBlock{
+    float: right;
+    width: 250px;
+}
+.checkoutPriceBlockItemTitle{
+    text-align: right;
+    float: left;
+    width: 160px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.checkoutPriceBlockItemValue{
+    text-align: left;
+    float: left;
+    width: 80px;
+}
+.cursotPointer{
+    cursor: pointer;
+}
+.orderForm{
+    /*margin-top: 25px;*/
+    margin: 15px auto;
+    width: 670px;
+}
+.conLeftPart{
+    float: left;
+    width: 83px;
+    margin-right: 2px;
+}
+.consRightPart{
+    float: left;
+    width: 113px;
+}
+.conKolba{
+    width: 79px;
+    height: 79px;
+    margin-top: 2px;
+}
+.conShaxta{
+    width: 79px;
+    height: 138px;
+}
+.conBowl{
+    margin-top: 2px;  
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 2px;
+}
+.conTrybka{
+    width: 106px;
+    height: 106px;
+}
+.conShipci{
+    width: 50px;
+    height: 50px;
+    margin-top: 2px;
+}
+.conBludce{
+    width: 50px;
+    height: 50px;
+    margin-top: 2px;    
+    float: left;
+}
+.conElement{
+    padding: 1px;
+    background-color: white;  
+    cursor: pointer;
+    border: 1px solid black;   
+}
+.popupContentCheckout{
+    padding: 0;
+    background-color: white;
+    border: 2px solid black;   
+    border-bottom: none;
+    border-right: none;     
+}
+.conElement:hover{
+    border-color: #ef9a20; 
+    background-color: #ef9a20;  
+}
+.choiceBlockItemElement{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    float: left;
+    width: 297px;
+    border-right: 2px solid black;    
+}
+.elementImage{
+    float: left;
+    width: 170px;
+    margin-right: 10px;
+}
+.elementText{
+    float: left;
+    width: 107px;
+}
+.checkoutInputTitle{
+    float: left;
+    width: 90px;
+    text-align: right;
+    margin-right: 10px;
+    padding-top: 10px;    
+}
+.checkoutInputField{
+    float: left;
+    width: 233px;    
+}
+.checkoutInputFieldBig{
+    float: left;
+    width: 566px;    
+}
+.checkout_button{
+    float: left;
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 100px;    
+}
+.checkout_button:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+#checkout_message{
+    float: left;
+    width: 450px;
+    margin-left: 10px;    
+}
+.checkoutTextarea{
+    width: 553px;
+    height: 60px;
+}
+.orderFormTitle{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;    
+}
+.toOrderButton{
+    float: right;
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.toOrderButton:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+@media (max-width:1116px){
+    .contentInnerRight{
+         display: none;
+    }    
+    .contentInnerLeft{
+        margin-right: 0 !important;
+        width: 100%;
+        max-width: 990px;
+    }
+}
+.productBlockMain, .productBlockMainLast{
+    float: left;
+    width: 240px;
+    padding: 25px;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+.productBlockMain:hover, .productBlockMainLast:hover{
+    border: 2px solid #ef9a20;
+}
+.productBlockMain{
+    margin-right: 54px;
+}
+.mainProductImage{
+    width: 240px;
+    height: 420px;
+    position: relative;
+    cursor: pointer;
+}
+.mainProductBuy{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    padding: 10px 12px;
+    margin-top: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+.mainProductBuy:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+.priceAngle{
+    float: right;
+    background:transparent url("../i/angle.png") no-repeat 0 0;
+    width: 101px;
+    height: 101px;
+    color: black;
+    font-size: 14px;
+    text-align: right;
+    padding: 10px 10px 0 0;
+    line-height: 16px;
+}
+.priceAngle span.anglePriceVal{
+    font-size: 21px;
+}
+.mainProductTitle{
+    position: absolute;
+    bottom: 0;
+    background:transparent url("../i/product_title_back.png") no-repeat 0 0;
+    width: 192px;
+    height: 42px;
+    text-align: left;
+    padding: 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    vertical-align: middle;
+}
+.likeProductBlock{
+    margin: 20px 0 30px 0;
+}
+.likeProductBlock a{
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+.likeProductBlock a:hover{
+    color: #ef9a20;
+}
+.likeProductTitle{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+}

@@ -1,0 +1,41 @@
+.feedBackInner{
+    padding: 10px;
+}
+.feedbackBlock{
+    margin-top: 17px;
+    border: 2px solid black;
+}
+.feedbackInp{
+    height: 22px;
+    margin-top: 3px;
+    width: 210px;  
+}
+.feedbackTextarea{
+    width: 210px; 
+    height: 100px;
+}
+.feedbackButton{
+    float: right;
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.feedbackButton:hover{
+    color: black;
+    background-color: #ef9a20;
+}
+@media (max-width:1116px){
+    .contentInnerRight{
+         display: none;
+    }    
+    .contentInnerLeft{
+        margin-right: 0 !important;
+        width: 100%;
+        max-width: 990px;
+    }   
+}
+#map{
+    width: 100% !important;
+}

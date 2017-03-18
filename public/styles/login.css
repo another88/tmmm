@@ -1,0 +1,56 @@
+/*
+    Document   : login
+    Created on : 23.01.2010, 21:28:17
+    Author     : Serg
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+* {
+    margin:0;
+    padding:0;
+}
+.wrap{
+    text-align: center;
+    margin: 100px auto;
+    width: 350px
+}
+body {font:11px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif}
+form {
+    background:none repeat scroll 0 0 #FFFFFF;
+    border:1px solid #E5E5E5;
+    font-weight:normal;
+    margin-left:8px;
+    padding:16px 16px 40px;
+}
+#login form .submit input {
+    border:1px solid;
+    cursor:pointer;
+    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    font-size:12px;
+    margin-top:-3px;
+    padding:3px 10px;
+    text-decoration:none;
+}
+label {color:#777777;font-size:13px}
+form button {
+    width:125px;
+   height:31px;
+   background:#666;
+   text-align:center;
+   line-height:31px;
+   color:#fff;
+   border: none
+}
+#user_pass, #user_login{
+    background:none repeat scroll 0 0 #FBFBFB;
+    border:1px solid #E5E5E5;
+    font-size:24px;
+    margin-bottom:16px;
+    margin-right:6px;
+    margin-top:2px;
+    padding:3px;
+    width:97%;
+}
+.clear {clear:both}
+.error{color: #CC0000; font-weight: bold}
